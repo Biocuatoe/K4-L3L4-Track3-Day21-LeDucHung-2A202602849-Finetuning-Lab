@@ -1,0 +1,4 @@
+adapters/*/adapter_model.safetensors filter=lfs diff=lfs merge=lfs -text
+adapters/*/*.safetensors filter=lfs diff=lfs merge=lfs -text
+data/*.jsonl text eol=lf
+data/checksums.json text eol=lf
